@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#ruby "2.2.3", :engine => 'jruby', :engine_version => '9.0.5.0'
+#ruby "2.2.3", :engine => 'jruby', :engine_version => '9.0.5.0'
+
 ruby "2.2.10"
 
 gem 'surveyor'
@@ -10,6 +13,7 @@ gem 'rails', '3.2.22.5'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'pg', '~> 0.11'
+#gem 'pg'
 
 
 # Gems used only for assets and not required
